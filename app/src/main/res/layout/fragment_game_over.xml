@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1CB317"
+    android:padding="16dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:id="@+id/ll_end_game"
+    >
+
+    <TextView
+        android:id="@+id/txt_end_game_message"
+        style="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_game_over_title" />
+
+    <TextView style="?android:textAppearanceSmall"
+        android:textAllCaps="true"
+        android:textColor="#80ffffff"
+        android:textStyle="bold"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_end_game_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_game_over_message" />
+
+    <fragment
+        android:name="com.wordpress.amaz1ngc0de.animations.ShareFragment"
+        android:id="@+id/share_fragment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

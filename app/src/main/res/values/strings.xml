@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Hit color</string>
+
+    <string name="str_settings">Settings</string>
+    <string name="str_acertos">Acertos:</string>
+    <string name="str_high_score">Pontuação Máxima:</string>
+    <string name="str_remaining_time">Tempo Restante:</string>
+    <string name="str_go_back_game">Voltar ao jogo</string>
+    <string name="str_game_over_message">Tente quebrar seu recorde mais uma vez! Toque "voltar"</string>
+    <string name="str_game_over_title">Fim de Jogo</string>
+
+    <string name="str_highscore_message">Você quebrou seu recorde! Toque "voltar"</string>
+    <string name="str_highscore_title">Parabéns</string>
+
+
+    <string name="facebook_app_id">833315656749942</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_freeze">Freeze</string>
+
+</resources>

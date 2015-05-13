@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.amaz1ngc0de.animations.ShareFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:weightSum="1"
+        >
+
+        <Button
+            android:id="@+id/btn_share_facebook"
+            android:text="Share on Facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".45"
+            />
+
+        <Button
+            android:id="@+id/btn_share_twitter"
+
+            android:text="Share on Twitter"
+            android:layout_toEndOf="@+id/btn_share_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".45"/>
+
+
+        <Button
+            android:id="@+id/btn_share_generic"
+            android:text="Share"
+            android:layout_toEndOf="@+id/btn_share_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight=".01"/>
+
+    </LinearLayout>
+
+</FrameLayout>
