@@ -39,6 +39,7 @@ public class GameFragment extends Fragment {
     public GameFragment() {
         //Nao iniciar componentes de tela aqui
         //iniciar eles depois de inflar o layout
+        //Teste alterando arquivo
     }
 
     @Override
