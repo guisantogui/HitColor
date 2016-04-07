@@ -15,5 +15,7 @@ public class GameOverFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_game_over, container, false);
 
         return view;
+
+        //Mudança teste
     }
 }

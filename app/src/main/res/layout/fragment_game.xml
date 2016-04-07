@@ -5,6 +5,9 @@
     android:id="@+id/rl_root"
     tools:context="com.wordpress.amaz1ngc0de.animations.GameFragment">
 
+    <!-- Some comment to change the file -->
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
